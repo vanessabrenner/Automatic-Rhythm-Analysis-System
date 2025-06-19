@@ -1,0 +1,72 @@
+Folder PATH listing
+Volume serial number is 4629-C6A8
+C:\USERS\VANES\DOCUMENTS\FACULTATE\LICENTA\PROJECT\DATASET
++---ballroom
+¦   +---B_1.0
+¦       +---annotations
+¦       ¦   +---beats
+¦       ¦   +---tempo
+¦       ¦       +---BallroomAnnotations
+¦       +---audio
+¦           +---ChaChaCha
+¦           +---Jive
+¦           +---nada
+¦           +---Quickstep
+¦           +---Rumba-American
+¦           +---Rumba-International
+¦           +---Rumba-Misc
+¦           +---Samba
+¦           +---Tango
+¦           +---VienneseWaltz
+¦           +---Waltz
++---carnatic
+¦   +---annotations
+¦   ¦   +---beats
+¦   ¦   +---meter
+¦   +---audio
++---giantsteps_tempo
+¦   +---annotations
+¦   ¦   +---tempo
+¦   +---audio
++---gtzan_genre
+¦   +---gtzan_genre
+¦   ¦   +---genres
+¦   ¦       +---blues
+¦   ¦       +---classical
+¦   ¦       +---country
+¦   ¦       +---disco
+¦   ¦       +---hiphop
+¦   ¦       +---jazz
+¦   ¦       +---metal
+¦   ¦       +---pop
+¦   ¦       +---reggae
+¦   ¦       +---rock
+¦   +---gtzan_mini-main
+¦   ¦   +---genres
+¦   ¦       +---blues
+¦   ¦       +---classical
+¦   ¦       +---country
+¦   ¦       +---disco
+¦   ¦       +---hiphop
+¦   ¦       +---jazz
+¦   ¦       +---metal
+¦   ¦       +---pop
+¦   ¦       +---reggae
+¦   ¦       +---rock
+¦   +---gtzan_tempo_beat-main
+¦       +---beats
+¦       +---tempo
++---hainsworth
+¦   +---H_1.0
+¦       +---annotations
+¦       ¦   +---beats
+¦       ¦   +---tempo
+¦       +---audio
++---harmonix
+¦   +---annotations
+¦   ¦   +---beats
+¦   +---audio
++---smc
+    +---annotations
+    ¦   +---beats
+    +---audio

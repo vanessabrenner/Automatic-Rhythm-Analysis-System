@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/songListFragment">
+
+
+    <fragment
+        android:id="@+id/addSongFragment"
+        android:name="com.example.feeltherythm.AddSongFragment"
+        android:label="Add Song"
+        tools:layout="@layout/fragment_add_song" />
+
+    <fragment
+        android:id="@+id/songPlayerFragment"
+        android:name="com.example.feeltherythm.SongPlayerFragment"
+        android:label="Play Song"
+        tools:layout="@layout/fragment_song_player">
+        <argument
+            android:name="title"
+            app:argType="string" />
+        <argument
+            android:name="audioPath"
+            app:argType="string" />
+        <argument
+            android:name="imagePath"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/songListFragment"
+        android:name="com.example.feeltherythm.SongListFragment"
+        android:label="My songs"
+        tools:layout="@layout/fragment_song_list">
+
+        <action
+            android:id="@+id/actionSongListFragmentToSongPlayerFragment"
+            app:destination="@id/songPlayerFragment" />
+        <action
+            android:id="@+id/actionSongListFragmentToAddSongFragment"
+            app:destination="@id/addSongFragment" />
+    </fragment>
+
+
+</navigation>

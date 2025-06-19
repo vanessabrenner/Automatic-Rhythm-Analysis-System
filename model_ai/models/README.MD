@@ -1,0 +1,1 @@
+Modelul din arhiva reprezinta modelul din experimentul 3 din lucrarea de licenta (cel antrenat pe 5 dataseturi)

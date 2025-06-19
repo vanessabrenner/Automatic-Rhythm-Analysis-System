@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/songImage"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/default_cover"
+            android:contentDescription="Song cover"
+            android:scaleType="centerCrop"
+            android:background="@android:color/darker_gray"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <TextView
+            android:id="@+id/audioStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:paddingTop="12dp"/>
+
+        <Button
+            android:id="@+id/selectAudio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/deep_green"
+            android:text="Select a song" />
+
+        <EditText
+            android:id="@+id/songTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Song title"
+            android:inputType="text"
+            android:paddingTop="16dp" />
+
+        <Button
+            android:id="@+id/uploadSong"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/deep_green"
+            android:text="Add song"
+            android:layout_marginTop="24dp" />
+
+        <ProgressBar
+            android:id="@+id/uploadProgress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            style="?android:attr/progressBarStyle"
+            android:backgroundTint="@color/deep_green"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:id="@+id/uploadStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_gravity="center"
+            android:paddingTop="8dp"/>
+
+
+    </LinearLayout>
+</ScrollView>
