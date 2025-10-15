@@ -40,6 +40,5 @@ The trained model is integrated into an **Android mobile application** that conv
 
 ---
 
-For more details, you can read the full paper:  
-👉 [Sistem inteligent pentru detectarea automată a ritmului muzical](https://acrobat.adobe.com/id/urn:aaid:sc:EU:3474b25d-ca07-4437-8983-7a50079ae185)
+For more details, you can read the full paper: [Sistem inteligent pentru detectarea automată a ritmului muzical](https://acrobat.adobe.com/id/urn:aaid:sc:EU:3474b25d-ca07-4437-8983-7a50079ae185)
 
